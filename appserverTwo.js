@@ -37,7 +37,7 @@ app.use('/appserver', express.static('lib'));
 
 app.get('/',function(req,res){
   //res.sendfile('public/index.html');
-  console.log('app server get***');
+  console.log('app server get testing jenkins with git***');
   res.sendFile(path.join(__dirname+'/public/index.html'));
   //__dirname : It will resolve to your project folder.
 });
